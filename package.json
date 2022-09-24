@@ -1,0 +1,20 @@
+{
+  "name": "@jianghuawei/j-todo",
+  "bin": {
+    "t": "./cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "version": "0.0.4",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "inquirer": "^8.0.0"
+  }
+}
